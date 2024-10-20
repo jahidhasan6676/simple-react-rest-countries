@@ -1,10 +1,19 @@
 .country{
     border: 2px  solid purple;
     margin: 15px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
 }
 
 .country-elements{
     font-weight: bold;
+}
+
+.visited{
+    background-color: bisque;
+    color:black;
+}
+.display{
+    display: flex;
+    gap: 10px;
 }

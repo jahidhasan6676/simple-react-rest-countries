@@ -4,4 +4,22 @@
     gap: 10px
 }
 
+.flag-container img{
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}
 
+
+/* media query setup */
+@media screen and (max-width:576px) {
+    .country-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
+.countries-details{
+    display: flex;
+    gap: 30px;
+}
